@@ -1,0 +1,2 @@
+description = "Identify long, high-density binge coding sessions"
+prompt = "Identify my binge coding sessions and rank them by duration and density."

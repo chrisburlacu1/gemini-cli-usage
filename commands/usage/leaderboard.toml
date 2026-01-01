@@ -1,0 +1,2 @@
+description = "View project leaderboard by token usage"
+prompt = "Show me the project leaderboard based on token usage."

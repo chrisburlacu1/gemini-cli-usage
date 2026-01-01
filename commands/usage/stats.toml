@@ -1,0 +1,2 @@
+description = "Check token usage statistics"
+prompt = "Please retrieve the current token usage statistics."

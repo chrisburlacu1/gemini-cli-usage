@@ -1,0 +1,31 @@
+{
+  "name": "gemini-cli-usage",
+  "version": "1.0.0",
+  "description": "Gemini CLI extension for monitoring and analyzing token usage, model performance, and user behavior.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisburlacu1/gemini-cli-usage.git"
+  },
+  "keywords": [
+    "gemini-cli"
+  ],
+  "author": "chrisburlacu1",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3",
+    "tsx": "^4.2.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "zod": "^4.3.4"
+  }
+}

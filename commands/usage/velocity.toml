@@ -1,0 +1,2 @@
+description = "Check context growth velocity"
+prompt = "Check the context growth velocity."

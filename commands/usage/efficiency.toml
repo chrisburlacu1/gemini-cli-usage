@@ -1,0 +1,2 @@
+description = "Analyze tool usage vs chat output"
+prompt = "Analyze the tool usage efficiency."

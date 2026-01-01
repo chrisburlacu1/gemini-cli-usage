@@ -1,0 +1,12 @@
+{
+  "name": "gemini-cli-usage",
+  "version": "1.0.0",
+  "mcpServers": {
+    "usage-server": {
+      "command": "node",
+      "args": ["${extensionPath}${/}dist${/}extension${/}server.js"],
+      "cwd": "${extensionPath}",
+      "contextFileName": "GEMINI.md"
+    }
+  }
+}

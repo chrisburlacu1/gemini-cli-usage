@@ -1,0 +1,2 @@
+description = "Show productivity heatmap (activity by day/hour)"
+prompt = "Analyze my productivity heatmap and show the most active times."
