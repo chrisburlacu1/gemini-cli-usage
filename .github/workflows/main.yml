@@ -31,6 +31,7 @@ jobs:
         run: |
           mkdir release-artifact
           cp -r dist release-artifact/
+          cp -r node_modules release-artifact/
           cp -r commands release-artifact/
           cp package.json release-artifact/
           cp gemini-extension.json release-artifact/
