@@ -2,7 +2,7 @@
   "name": "gemini-cli-usage",
   "version": "1.0.0",
   "description": "Gemini CLI extension for monitoring and analyzing token usage, model performance, and user behavior.",
-  "main": "index.js",
+  "main": "dist/extension/server.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli/main.ts"

@@ -10,7 +10,7 @@ import { BehavioralAnalyzer } from "../domain/behavioralAnalyzer.js";
 import { GeminiRepository } from "../data/geminiRepository.js";
 
 const server = new McpServer({
-  name: "gemini-cli-usage",
+  name: "gemini-cli-usage-server",
   version: "1.0.0",
 });
 
@@ -212,6 +212,7 @@ server.registerTool(
 );
 
 async function main() {
+  console.log("Gemini CLI Usage extension starting...");
   const transport = new StdioServerTransport();
   await server.connect(transport);
 }
